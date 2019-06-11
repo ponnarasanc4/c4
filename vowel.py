@@ -8,4 +8,4 @@ if n in list2:
   else:
     print("Consonent")
 else:
-  print("Invalid")
+  print("invalid")

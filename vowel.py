@@ -6,6 +6,6 @@ if n in list2:
   if n in list1:
     print("Vowel")
   else:
-    print("Consonent")
+    print("Consonant")
 else:
   print("invalid")

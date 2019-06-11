@@ -1,7 +1,10 @@
 n=int(input())
-if n==0:
-  print("Zero")
-elif n%2==0:
-  print("Even")
+if n<0:
+  print("Invalid")
 else:
-  print("Odd")
+  if n==0:
+    print("Zero")
+  elif n%2==0:
+    print("Even")
+  else:
+    print("Odd")
